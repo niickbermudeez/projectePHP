@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-    <title>Projecte M7</title>
+    <title>Login page</title>
 </head>
 <body>
 
@@ -13,8 +13,8 @@
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="Username" required>
         
-        <label for="username">Contrasenya</label>
-        <input type="text" name="contrasenya" placeholder="Contrasenya" required>
+        <label for="password">Contrasenya</label>
+        <input type="password" name="password" placeholder="Password" required>
 
         <button>Sign in</button>
     </form>
