@@ -8,13 +8,17 @@
     <title>Register</title>
 </head>
 <body>
-
+    <div class="form-header">
+        <button id="return-button"><a href="../index.php"><img src="../src/volverIcono.png" alt=""></a></button>
+        <img src="../src/logoTitulo.png" alt="">
+    </div>
+    
     <form action="">
         <label for="name">First Name</label>
-        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="name" placeholder="Name">
 
         <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" placeholder="LastName" required>
+        <input type="text" name="lastname" placeholder="LastName">
 
         <label for="email">Email</label>
         <input type="text" name="email" placeholder="Email" required>

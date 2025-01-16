@@ -9,6 +9,8 @@
 </head>
 <body>
 
+    <img src="./src/logo.png" alt="" id="logo">
+
     <form action="">
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="Username" required>
@@ -20,7 +22,7 @@
     </form>
 
     <div>
-        <a href="">Don't have an account yet? <br> Sign up</a>
+        <a href="./web/register.php">Don't have an account yet? <br> Sign up</a>
     </div>
 
 </body>
