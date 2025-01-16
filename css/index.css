@@ -48,6 +48,8 @@ button {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 35%;
+    margin: 2vh  auto 0 auto;
 }
 
 button:hover {
