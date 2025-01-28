@@ -10,7 +10,7 @@
 <body>
     <div class="form-header">
         <button id="return-button"><a href="../index.php"><img src="../img/volverIcono.png" alt=""></a></button>
-        <img src="../img/logoTitulo.png" alt="">
+        <img src="../img/logoTitulo.png" alt="" id="logoTitulo">
     </div>
     
     <form action="">
@@ -18,7 +18,7 @@
         <input type="text" name="name" placeholder="Name">
 
         <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" placeholder="LastName">
+        <input type="text" name="lastname" placeholder="Last Name">
 
         <label for="email">Email</label>
         <input type="text" name="email" placeholder="Email" required>
@@ -30,7 +30,7 @@
         <input type="text" name="password" placeholder="Password" required>
 
         <label for="verifypassword">Verify Password</label>
-        <input type="text" name="verifypassword" placeholder="VerifyPassword" required>
+        <input type="text" name="verifypassword" placeholder="Verify Password" required>
 
         <button>Register</button>
     </form>

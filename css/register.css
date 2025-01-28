@@ -1,16 +1,22 @@
-/* Colores: rgb(18, 55, 42), rgb(67, 104, 80), rgb(173, 188, 159), rgb(251, 250, 218) */
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(173, 188, 159);
+    background-color: rgb(10, 25, 50);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
+    color: #e0f7fa;
+}
+
+#logoTitulo {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -19,30 +25,42 @@ form {
     max-width: 400px;
     width: 100%;
     padding: 20px;
-    background-color: rgb(121, 134, 69);
+    background-color: rgb(20, 50, 90); /* Azul intermedio */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form button {
+    margin: 0 auto;
 }
 
 label {
     margin-bottom: 5px;
     font-weight: bold;
+    color: #e0f7fa; /* Azul claro */
 }
 
 input[type="text"], input[type="password"] {
     margin-bottom: 15px;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(224, 247, 250, 0.5); /* Borde translúcido */
     border-radius: 4px;
+    background-color: rgb(15, 40, 70); /* Fondo de input */
+    color: #e0f7fa; /* Texto claro */
     width: 100%;
     box-sizing: border-box;
 }
 
-.form-header{
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgba(224, 247, 250, 0.6); /* Placeholder tenue */
+}
+
+.form-header {
     width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     max-width: 400px;
     margin-bottom: 3vh;
 }
@@ -50,7 +68,7 @@ input[type="text"], input[type="password"] {
 button {
     padding: 10px 15px;
     font-size: 16px;
-    background-color: rgb(18, 55, 42);
+    background-color: rgb(0, 100, 200); /* Azul vibrante */
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -64,17 +82,17 @@ button a img {
     max-height: 60px;
 }
 
-#return-button{
+#return-button {
     width: 5vw;
     display: none;
 }
 
-#return-button a{
+#return-button a {
     display: block;
 }
 
 button:hover {
-    background-color: rgb(87, 103, 73);
+    background-color: rgb(30, 202, 210); /* Azul brillante */
 }
 
 div {
@@ -85,13 +103,14 @@ div {
 div a {
     display: block;
     margin-bottom: 10px;
-    color: rgb(18, 55, 42);
+    color: rgb(0, 150, 230); /* Azul llamativo */
     text-decoration: none;
     font-weight: 600;
 }
 
 div a:hover {
     text-decoration: underline;
+    color: rgb(30, 202, 255); /* Azul más brillante */
 }
 
 @media (min-width: 768px) {
@@ -99,7 +118,7 @@ div a:hover {
         max-width: 600px;
     }
 
-    #return-button{
+    #return-button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -107,7 +126,7 @@ div a:hover {
         max-height: 80px;
     }
 
-    .form-header{
+    .form-header {
         max-width: 600px;
     }
 
@@ -122,7 +141,7 @@ div a:hover {
         max-width: 800px;
     }
 
-    .form-header{
+    .form-header {
         max-width: 800px;
     }
 }
