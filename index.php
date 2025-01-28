@@ -22,7 +22,7 @@
     </form>
 
     <div>
-        <a href="./web/register.php">Don't have an account yet? <br> Sign up</a>
+        <a href="./src/register.php">Don't have an account yet? <br> Sign up</a>
     </div>
 
 </body>
