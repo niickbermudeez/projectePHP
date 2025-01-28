@@ -15,6 +15,7 @@
         
         //Tallem la connexió a la BDs
         $db = null;
-    }catch(PDOException $e){
+    }catch(PDOException $e)
+    {
         echo 'Error amb la BDs: ' . $e->getMessage() . '<br>';
     }
