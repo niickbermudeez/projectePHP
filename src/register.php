@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="form-header">
-        <button id="return-button"><a href="../index.php"><img src="../src/volverIcono.png" alt=""></a></button>
-        <img src="../src/logoTitulo.png" alt="">
+        <button id="return-button"><a href="../index.php"><img src="../img/volverIcono.png" alt=""></a></button>
+        <img src="../img/logoTitulo.png" alt="">
     </div>
     
     <form action="">

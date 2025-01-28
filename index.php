@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <img src="./src/logo.png" alt="" id="logo">
+    <img src="./img/logo.png" alt="" id="logo">
 
     <form action="">
         <label for="username">Username</label>
