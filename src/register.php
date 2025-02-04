@@ -13,7 +13,7 @@
         <img src="../img/logoTitulo.png" alt="" id="logoTitulo">
     </div>
     
-    <form action="">
+    <form action="./../php/register_action.php" method="POST>
         <label for="name">First Name</label>
         <input type="text" name="name" placeholder="Name">
 
@@ -32,7 +32,7 @@
         <label for="verifypassword">Verify Password</label>
         <input type="text" name="verifypassword" placeholder="Verify Password" required>
 
-        <button>Register</button>
+        <button type="submit">Register</button>
     </form>
 </body>
 </html>

@@ -11,14 +11,14 @@
 
     <img src="./img/logo.png" alt="" id="logo">
 
-    <form action="">
+    <form action="./php/login.php" method="POST">
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="Username" required>
-        
-        <label for="password">Contrasenya</label>
+
+        <label for="password">Password</label>
         <input type="password" name="password" placeholder="Password" required>
 
-        <button>Sign in</button>
+        <button type="submit">Sign in</button>
     </form>
 
     <div>
